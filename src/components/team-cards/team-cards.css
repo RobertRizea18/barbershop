@@ -1,0 +1,31 @@
+.card-img {
+    height: 200px;
+    width: 200px !important; 
+    cursor: pointer;
+}
+
+.cards-group {
+    height: 300px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+.first-card {
+    display: flex;
+    align-items: center;
+    border: none !important; 
+}
+
+.second-card {
+    display: flex;
+    align-items: center;
+    border: none !important; 
+}
+
+.third-card {
+    display: flex;
+    align-items: center;
+    border: none !important; 
+}
+

@@ -1,0 +1,117 @@
+
+.home {
+  background-image: url("../images/hair-spies-y-u351VcW90-unsplash.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: 100% 100%;
+
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.852);
+  background-color: #00000059;
+  font-size: 2rem;
+  font-family: 'Tapestry', cursive;
+  text-align: center;
+}
+
+.icons {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 2%;
+  margin-top: 11%;
+  cursor: pointer;
+}
+
+
+.wapp {
+  color: green;
+}
+
+.wapp:hover::before {
+  content: "+40 (727) 761 168";
+  color:indianred;
+  background-color: black;
+  font-size: 1rem;
+  border: 2px solid bisque;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  position:relative;
+  right: 5%;
+
+}
+
+.facebook {
+  color: blue;
+}
+
+
+.facebook:hover::before {
+  content: "www.facebook.com";
+  color: indianred;
+  background-color: black;
+  font-size: 1rem;
+  border: 2px solid bisque;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  position:relative;
+  right: 5%;
+
+}
+
+.instagram {
+  color: rgba(255, 0, 0, 0.664);
+}
+
+
+.instagram:hover::before {
+  content: "www.instagram.com";
+  color: indianred;
+  background-color: black;
+  font-size: 1rem;
+  border: 2px solid bisque;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  position:relative;
+  right: 5%;
+
+}
+
+.programare-online {
+  color: rgba(255, 255, 255, 0.79);
+}
+
+.programare-online:hover::before {
+  content: "Programeaza-te online";
+  color: indianred;
+  background-color: black;
+  font-size: 1rem;
+  border: 1px solid bisque;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  position:relative;
+  right: 5%;
+
+}
+
+
+@media only screen and  (max-width: 600px) {
+  .description {
+    font-size: 1.3rem;
+  }
+
+  .home {
+    background-size: 100% 100%;
+   
+  }
+
+  .icons {
+    font-size: 1.8rem;
+    margin-top: 15rem;
+    margin-right: 0.7rem;
+  }
+}
+
+

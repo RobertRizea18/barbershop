@@ -1,0 +1,68 @@
+.navbar {
+    background-color: rgba(26, 26, 26, 0.990);
+}
+
+
+.custom-nav-link {
+    display: block;
+    color: rgba(255, 255, 255, .55);
+    text-decoration: none;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    padding: 0 25px;
+
+}
+
+.custom-nav-link:after {
+    content: "";
+    position: absolute;
+    background-color: tan;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.custom-nav-link:hover {
+    color: #ffffff;
+}
+
+.custom-nav-link:hover:after {
+    width: 100%;
+}
+
+#navbar-collapse {
+    align-items: flex-end;
+    flex-grow: 0;
+}
+
+.navbar-font {
+    font-family: 'Tapestry';
+}
+
+.barber {
+    color:indianred;
+}
+.shop {
+    margin-left: 4.5rem;
+    color:bisque;
+    
+}
+
+.nav-scissorss {
+    font-size: 1.7rem;
+   color: bisque;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .custom-nav-link:after {
+        display: none;
+    }
+
+
+}

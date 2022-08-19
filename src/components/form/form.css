@@ -1,0 +1,39 @@
+.form-container {
+  color: white;
+  background-color: #ffe4c447;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-bottom: 5rem;
+  margin-top: 10rem;
+  margin-right: 1rem;
+  padding: 1rem;
+  border: 2px solid rgba(128, 128, 128, 0.657);
+  border-radius: 4px;
+  width: 50vh;
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.form-input-container>label {
+  margin: 0.1rem;
+}
+
+.form-submit-button {
+  background-color: burlywood;
+  padding: 0.5rem;
+  border: none;
+  color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .form-container {
+    width: auto;
+    margin-top: 5%;
+    margin-right: 15%;
+  }
+}

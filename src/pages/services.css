@@ -1,0 +1,97 @@
+
+.star {
+    color: tan;
+    font-size: 10rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.scissors {
+    color: tan;
+    font-size: 10rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.beard {
+    color: tan;
+    font-size: 10rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.diamond {
+    color: tan;
+    font-size: 10rem;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+.superior-experience {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tapestry', cursive;
+
+}
+
+.premium-haircut {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tapestry', cursive;
+}
+
+.executive-beard {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tapestry', cursive;
+}
+
+.ultimate-experience {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tapestry', cursive;
+}
+
+.text-muted {
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2rem;
+}
+
+.bg-submit {
+    height: 30vh;
+    background-color: rgba(255, 228, 196, 0.663);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.submit-btn {
+    background-color: burlywood;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    margin: auto;
+    display: flex;
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 20rem;
+    justify-content: center;
+}
+

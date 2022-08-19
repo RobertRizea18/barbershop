@@ -1,0 +1,35 @@
+.contact-first-part {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.3rem;
+    background-color: tan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first {
+    font-size: 4rem;
+    margin-right: 2rem;
+    
+}
+
+.second {
+    font-size: 4rem;
+    margin-left: 2rem;
+    
+}
+
+
+.contact {
+    height: 100vh;
+    background-color: white;
+}
+
+
+
+
+
+
